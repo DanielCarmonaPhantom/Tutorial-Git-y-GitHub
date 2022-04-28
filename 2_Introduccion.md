@@ -102,7 +102,7 @@ Ya dentro de nuestro VS CODE de lado izquierdo tenemos un icono llamado `Explore
 
 Puede verse así:
 
-<img src='./assets/Explorer.png'>
+<img src='./assets/Explorer.png' width='200'>
 
 
 Ya podemos pasar a la sección <a href='3_Modificando_archivos.md'>3. Modificando_archivos</a>.
