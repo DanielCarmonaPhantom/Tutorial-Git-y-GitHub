@@ -53,7 +53,7 @@ sudo apt-get install git
 
 ## Verificar Git
 Verificaremos si ya tenemos instalado git con el comando que usamos más arriba:
-´´´Bash
+```Bash
 git --version
-´´´
+```
 y nos aparecera ya la version de git instalada.
