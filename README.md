@@ -11,7 +11,7 @@ Podemos verificar si ya lo tenemos instalado utilizando una terminal de comandos
 
 **Windows**: La terminal que trae por defecto es cmd, tambien puedes utilizar otras terminales que podras descargar más adelante. 
 
-Para abrir cmd puedes darle al buscador de windows y buscar cmd. Si te encuentras en un windows que no tiene buscador, puedes utilizar la tecla `[Windows + R]` y se abrira una ventana donde deveras escribir ´cmd´ y automaticamente se te abrira la terminal de windows.
+Para abrir cmd puedes darle al buscador de windows y buscar cmd. Si te encuentras en un windows que no tiene buscador, puedes utilizar la tecla `[Windows + R]` y se abrira una ventana donde deveras escribir `cmd` y automaticamente se te abrira la terminal de windows.
 
 **Mac**: En la lupa superior de busqueda, podemos buscar `terminal` y seleccionar la aplicación.
 
@@ -30,8 +30,30 @@ Puede que no tengas git instalado, así que seguiremos con el tutorial.
 
 ## 2. Instalación
 
-### Instalación de Windows
+### Instalación de Windows y Mac
 
-### Instalación en Mac
+Iremos al [sitio oficial de git](https://git-scm.com/downloads) y automaticamente nos selecciona el sistema operativo, daremos click en Descargar.
+
+Cuando vayamos a instalar, nos ira pregutando cual sera la configuracíon. Puedes dar next a todo sin problema.
 
 ### Instalación en Linux
+
+Nos iremos a la terminal y actualizaremos la lista de paquetes con el comando:
+```Bash
+sudo apt-get update
+```
+y despues
+```Bash
+sudo apt-get upgrade
+```
+Una vez teniendo actualizado nuestros paquetes, actualizaremos el git de nuestra maquina con:
+```Bash
+sudo apt-get install git
+```
+
+## Verificar Git
+Verificaremos si ya tenemos instalado git con el comando que usamos más arriba:
+´´´Bash
+git --version
+´´´
+y nos aparecera ya la version de git instalada.
