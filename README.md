@@ -87,9 +87,9 @@ Para inicializar un repo, primero debemos situarnos en la carpeta que desemos te
 
 1. Crearemos una carpeta en el escritorio se llame: `Primer-Repo`. 
 
-La carpeta `Primer-Repo` sera el repo que estaremos definiendo para utilizarlo con GitHub
+La carpeta `Primer-Repo` la estaremos definiendo para utilizarlo con GitHub
 
-Regularmente se crean estos repos en el escritorio, esto ya depende de donde te guste trabajar tus carpetas.
+Regularmente se crean estos repos en el escritorio, pero esto ya depende de donde te guste trabajar tus carpetas.
 
 2. Debemos situarnos en la carpeta.
 
@@ -97,12 +97,19 @@ Para "situarnos" debemos movernos dentro de la consola.
 
 Cuando inicias la terminal, esta te situa en un punto especifico de tu computadora. Regularmente te situa en la carpeta del Usuario. 
 
-Para visualizar en donde te encuentras puedes utilizar el siguiente comando.
 
-Para Windows:
+En Windows nos sale la ruta donde estamos posicionados:
+
 ```Bash
-echo %cd%
+C:\User\Daniel>
 ```
+
+Pero en otros sistemas solo nos aparece el nombre y computadora
+```Bash
+Daniel@Mycomputadora ~ %
+```
+
+Para visualizar en donde te encuentras puedes utilizar el siguiente comando.
 
 Para Mac y Linux:
 ```Bash
@@ -111,7 +118,7 @@ pwd
 
 El resultado sera la carpeta en donde la terminal esta situada. 
 
-Puedes visualizar los archivos que contiene la carpeta en donde te cuentras utilizando:
+Puedes visualizar los archivos que contiene la carpeta en donde te cuentras , utiliza:
 
 Para Windows: 
 ```Bash
@@ -119,23 +126,33 @@ dir
 ```
 
 Para Mac y Linux:
-```
+```Bash
 ls
 ```
 
-Ahora que sabes que archivos contiene la carpeta en donde estamos, nos vamos a mover a la carpeta Desktop donde se encuentra la carpeta `Primer-Repo`.
+Ahora que sabes que archivos contiene la carpeta en donde estamos, nos vamos a mover a la carpeta `Desktop` donde se encuentra la carpeta `Primer-Repo`.
 
-Para podernos mover entre carpetas utilizaremos el comando `cd` + espacio + "Nombre de la carpeta" que nos vamos a mover.
+Para podernos mover entre carpetas utilizaremos el comando `cd` + espacio + "Nombre de la carpeta" a la que nos vamos a mover.
 
 ```Bash
 cd Desktop
 ```
 
-Ya nos encontramos en la carpeta Desktop. Aveces en nuestro nombre de la terminal nos aparece la carpeta que estamos situados. 
+Aveces en nuestro nombre de la terminal nos aparece la carpeta que estamos situados. 
 
 Haremos lo mismo para entrar a nuestro `Primer-Repo`:
 
 ```Bash
 cd Primer-Repo
-``
+```
+
+3. Inicializar el primer respositorio.
+
+Ya una vez que nuestra consola este situada en la carpeta que estaremos trabajando, utilizaremos el comando de git:
+
+```Bash
+git init
+```
+
+Nota: Recuerda verificar que estas en la carpeta `Primer-Repo` con `pwd` por que aveces uno puede estar en Desktop y dar el `git init` y liarla.  
 
