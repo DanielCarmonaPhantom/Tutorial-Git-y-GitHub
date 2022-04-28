@@ -85,17 +85,17 @@ Git nos ayudara a manejar las versiones de estados sobre nuestros archivos. ¿A 
 Un repositorio sera una carpeta donde se trabajara todo este control de versiones. 
 Para inicializar un repo, primero debemos situarnos en la carpeta que desemos tener este control de versiones.
 
-1. Crearemos una carpeta en el escritorio se llame: `Primer-Repo`. 
+#### 1. Crearemos una carpeta en el escritorio se llame: `Primer-Repo`. 
 
-La carpeta `Primer-Repo` la estaremos definiendo para utilizarlo con GitHub
+La carpeta `Primer-Repo` la estaremos definiendo para utilizarlo con GitHub.
 
 Regularmente se crean estos repos en el escritorio, pero esto ya depende de donde te guste trabajar tus carpetas.
 
-2. Debemos situarnos en la carpeta.
+#### 2. Debemos situarnos en la carpeta.
 
 Para "situarnos" debemos movernos dentro de la consola.
 
-Cuando inicias la terminal, esta te situa en un punto especifico de tu computadora. Regularmente te situa en la carpeta del Usuario. 
+Cuando inicias la terminal, esta te situa en un punto especifico de tu computadora. Regularmente en la carpeta del Usuario. 
 
 
 En Windows nos sale la ruta donde estamos posicionados:
@@ -118,7 +118,7 @@ pwd
 
 El resultado sera la carpeta en donde la terminal esta situada. 
 
-Puedes visualizar los archivos que contiene la carpeta en donde te cuentras , utiliza:
+Puedes visualizar los archivos que contiene la carpeta en donde te cuentras , utilizando:
 
 Para Windows: 
 ```Bash
@@ -138,7 +138,7 @@ Para podernos mover entre carpetas utilizaremos el comando `cd` + espacio + "Nom
 cd Desktop
 ```
 
-Aveces en nuestro nombre de la terminal nos aparece la carpeta que estamos situados. 
+Veremos que en nuestro nombre de la terminal nos añadira la carpeta que nos movimos. 
 
 Haremos lo mismo para entrar a nuestro `Primer-Repo`:
 
@@ -146,7 +146,7 @@ Haremos lo mismo para entrar a nuestro `Primer-Repo`:
 cd Primer-Repo
 ```
 
-3. Inicializar el primer respositorio.
+#### 3. Inicializar el primer respositorio.
 
 Ya una vez que nuestra consola este situada en la carpeta que estaremos trabajando, utilizaremos el comando de git:
 
