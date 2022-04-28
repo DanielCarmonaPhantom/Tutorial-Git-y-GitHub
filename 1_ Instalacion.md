@@ -69,3 +69,5 @@ y para configurar tu correo, recomendable que sea el que ya tengas en tu cuenta 
 ```Bash
 $ git config --global user.email "Aqui va tu correo"
 ```
+
+Ya podemos pasar a la sección <a href='2_ Introduccion.md'>2. Introducción a Git</a>.

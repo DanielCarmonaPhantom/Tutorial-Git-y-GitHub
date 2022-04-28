@@ -5,8 +5,8 @@ Este tutorial esta diseñado para instalar git desde cero, aprendiendo un poco d
 El tutorial estara dividido en las siguientes secciones:
 
 Contenido:
-1. <a href='1_ Instalacion.md'>1. Instalación</a>.
-2. Introducción a Git
+1. <a href='1_ Instalacion.md'>Instalación</a>.
+2. <a href='2_ Introduccion.md'>Introducción a Git</a>.
 3. Modificando archivos
 4. Crear presentación en Github
 
