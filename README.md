@@ -20,9 +20,9 @@ Para abrir cmd puedes darle al buscador de windows y buscar cmd. Si te encuentra
 ---
 
 Una vez dentro de nuestra terminal, utilizaremos el comando:
-´´´
+```Bash
 git --version
-´´´
+```
 
 Este comando nos ayudara a visualizar la versión de git que en su caso, tuvieramos instalada.
 
