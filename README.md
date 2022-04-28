@@ -156,3 +156,24 @@ git init
 
 Nota: Recuerda verificar que estas en la carpeta `Primer-Repo` con `pwd` por que aveces uno puede estar en Desktop y dar el `git init` y liarla.  
 
+#### 4. Subiendo nuestro primer archivo.
+
+Una vez inicido el git, ya podremos utilizar el manejo de versiones con nuestros archivos.
+
+Aqui ya estaremos utilizando nuestro editor de código. 
+
+Para este ejemplo utilizaremos VS CODE pero recuerda que es el de tu preferencia.
+
+Los pasos son muy similares a otros editores.
+
+Abriremos VS CODE y nos iremos a File y ahí seleccionaremos `Open Folder` y buscaras nuestro repo, lo seleccionas y le das a boton [Seleccionar carpeta] o [Abrir]. Si le das enter, solo entraras a la carpeta como si fueras a buscar adentro. 
+
+. Tambien en tu terminal puedes teclear:
+```Bash
+Code 
+```
+y se abrira una ventana de VS CODE ya en la carpeta `Primer-Repo`. Aveces no esta configurado esta opción pero es muy facil de hacerlo.
+
+Ya dentro de nuestro VS COde de lado izquierdo tenemos un icono llamado `Explorer` donde podremos visualizar todas las carpetas y archivos que estan dentro de la carpeta `Primer-Repo`.
+
+
