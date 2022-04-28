@@ -102,7 +102,39 @@ Ya dentro de nuestro VS CODE de lado izquierdo tenemos un icono llamado `Explore
 
 Puede verse así:
 
-<img src='./assets/Explorer.png' width='200'>
+<img src='./assets/Explorer.png' width='400'>
+
+A lado de donde dice `Primer-Repo` contamos con 4 iconos.
+* Crear Archivo: Puede ser cualquier archivo especificando al final su extensión (.txt, .html, .css, .js, .py, .ipynb etc...)
+* Crear una carpeta: Tener en cuenta que donde este seleccionado, se crea la carpeta, y funciona igual con los archivos. Si tienes seleccionado una carpeta ya existente y presionas [Crear archivo], este se añadira dentro de la carpeta.
+* Actualizar.
+* Colapsar.
+
+Le daremos a crear archivo y pondremos de nombre: `README.md`. 
+
+Estos archivos Readme es la presentación de cada repositorio, y estos se editan en formato Markdown.
+
+¡No te preocupes no es otro lenguaje! Markdown tiene herramientas para modificar nuestro texto. 
+
+Por ejemplo si queremos poner un bloque de código como el siguiente:
+
+```Python
+print("Hola Mundo")
+```
+con Markdown lo puedes hacer.
+
+Cuando hayas creado el archivo, automaticamente se abrira en el editor de código, aqui ya puedes empezar a introducir todo lo que vayas a hacer.
+
+Para nuestro tutorial pondremos lo siguiente:
+
+```Markdown
+
+# Primer repositorio
+---
+Este repo fue realizado para hackear el mundo.
+
+```
+
 
 
 Ya podemos pasar a la sección <a href='3_Modificando_archivos.md'>3. Modificando_archivos</a>.
