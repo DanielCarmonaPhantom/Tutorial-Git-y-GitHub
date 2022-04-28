@@ -80,7 +80,7 @@ git init
 
 Nota: Recuerda verificar que estas en la carpeta `Primer-Repo` con `pwd` por que aveces uno puede estar en Desktop y dar el `git init` y liarla.  
 
-#### 4. Subiendo nuestro primer archivo.
+### Subiendo nuestro primer archivo.
 
 Una vez inicido el git, ya podremos utilizar el manejo de versiones con nuestros archivos.
 
@@ -134,6 +134,27 @@ Para nuestro tutorial pondremos lo siguiente:
 Este repo fue realizado para hackear el mundo.
 
 ```
+
+Regularmente en los editores de código, debemos darle guardar, así que iremos a File > Save. Tambien puedes configurar que tu editor de código se guarde automaticamente.
+
+¿Cómo sabemos si ya se guardo? En la pestaña que se abrio a la hora de crear el archivo, a lado de su nombre aparece un ⚪️ que significa que no se ha guardado.
+
+Una vez guardado, nos vamos a la consola(espero un no la hayas cerrado, pero si no, vuelve a posicionarla en la carpeta del repo) utilizaremos el comando:
+
+```Bash
+git add .
+```
+
+Este comando te permite agregar los archivos que vas a utilizar en el control de versiones. Puede ponerse manual como: `git add README.md` pero el punto en el comando de arriba se agregan **todos** los archivos modificados.
+
+¡¡Es hora de hacer tu primer commit!! 
+
+Un commit es un mensaje en el tiempo/espacio que podras describir al cambio que acabas de hacer, y el cual otros programadores podran entender, para esto deberas definir bien la descripción de lo que hiciste, no solo poner:
+
+> hola_mundo.py
+
+Aqui te dejo un link de una página donde vienen las [Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/).
+
 
 
 
