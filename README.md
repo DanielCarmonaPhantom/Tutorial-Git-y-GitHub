@@ -4,6 +4,7 @@ Contenido:
 1. Terminal
 2. Descarga
 3. Configuración
+4. Introducción a Git
 
 ## 1. Terminal
 Antes de instalar, visualizaremos si ya tenemos instalado git, ya que en algunos sistemas operativos ya lo incorpora.
@@ -74,3 +75,16 @@ y para configurar tu correo, recomendable que sea el que ya tengas en tu cuenta 
 ```Bash
 $ git config --global user.email "Aqui va tu correo"
 ```
+
+## Introdución a Git
+
+Git nos ayudara a manejar las versiones de estados sobre nuestros archivos. ¿A que se refiere estados?. ¿Recuerdas lo que dicen de TesisFinal y luego es TesisFinal2 y despues es TesisFinalFinal? lo que te ayuda git es a trabajar esas versiones que vas manejando. Ahora imaginate que ese archivo no solo lo editas tu, si no más personas, entonces para poder ver los cambios que se realizen, git te permite visualizar lo que ha subido cada quien. Tambien puedes saltar en el tiempo, volviendo a un estado anterior y empezando desde ahí. 
+
+### Creando un repositorio
+
+Un repositorio sera una carpeta donde se trabajara todo este control de versiones, para inicializar un repo, utilizaremos el comando:
+```bash
+git init
+```
+
+
