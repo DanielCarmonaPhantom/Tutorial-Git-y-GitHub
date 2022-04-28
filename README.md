@@ -82,9 +82,60 @@ Git nos ayudara a manejar las versiones de estados sobre nuestros archivos. ¿A 
 
 ### Creando un repositorio
 
-Un repositorio sera una carpeta donde se trabajara todo este control de versiones, para inicializar un repo, utilizaremos el comando:
-```bash
-git init
+Un repositorio sera una carpeta donde se trabajara todo este control de versiones. 
+Para inicializar un repo, primero debemos situarnos en la carpeta que desemos tener este control de versiones.
+
+1. Crearemos una carpeta en el escritorio se llame: `Primer-Repo`. 
+
+La carpeta `Primer-Repo` sera el repo que estaremos definiendo para utilizarlo con GitHub
+
+Regularmente se crean estos repos en el escritorio, esto ya depende de donde te guste trabajar tus carpetas.
+
+2. Debemos situarnos en la carpeta.
+
+Para "situarnos" debemos movernos dentro de la consola.
+
+Cuando inicias la terminal, esta te situa en un punto especifico de tu computadora. Regularmente te situa en la carpeta del Usuario. 
+
+Para visualizar en donde te encuentras puedes utilizar el siguiente comando.
+
+Para Windows:
+```Bash
+echo %cd%
 ```
 
+Para Mac y Linux:
+```Bash
+pwd
+```
+
+El resultado sera la carpeta en donde la terminal esta situada. 
+
+Puedes visualizar los archivos que contiene la carpeta en donde te cuentras utilizando:
+
+Para Windows: 
+```Bash
+dir
+```
+
+Para Mac y Linux:
+```
+ls
+```
+
+Ahora que sabes que archivos contiene la carpeta en donde estamos, nos vamos a mover a la carpeta Desktop donde se encuentra la carpeta `Primer-Repo`.
+
+Para podernos mover entre carpetas utilizaremos el comando `cd` + espacio + "Nombre de la carpeta" que nos vamos a mover.
+
+```Bash
+cd Desktop
+```
+
+Ya nos encontramos en la carpeta Desktop. Aveces en nuestro nombre de la terminal nos aparece la carpeta que estamos situados. 
+
+Haremos lo mismo para entrar a nuestro `Primer-Repo`:
+
+```Bash
+cd Primer-Repo
+``
 
