@@ -3,6 +3,7 @@
 Contenido:
 1. Terminal
 2. Descarga
+3. Configuración
 
 ## 1. Terminal
 Antes de instalar, visualizaremos si ya tenemos instalado git, ya que en algunos sistemas operativos ya lo incorpora.
@@ -51,9 +52,21 @@ Una vez teniendo actualizado nuestros paquetes, actualizaremos el git de nuestra
 sudo apt-get install git
 ```
 
-## Verificar Git
+### Verificar Git
 Verificaremos si ya tenemos instalado git con el comando que usamos más arriba:
 ```Bash
 git --version
 ```
 y nos aparecera ya la version de git instalada.
+```prompt
+2.36.0
+```
+
+## Configuración
+
+Para definir el usuario que estaremos utilizando y probablemnte el que se una con GitHub, tendremos que configurar nuestro entorno modificando las variables de nombre y correo de git.
+
+Para esto, dentro de nuestra terminal utilizaremos el comando: 
+```Bash
+git config --global user.name "Aqui va tu nombre. Mucho Ojo"
+```
