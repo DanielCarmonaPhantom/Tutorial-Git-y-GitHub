@@ -1,4 +1,4 @@
-<img src='./assets/Introduccion.png'>
+<img src='./assets/Intro_GIT.png'>
 
 ## Introdución a Git
 
