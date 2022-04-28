@@ -11,11 +11,11 @@ Podemos verificar si ya lo tenemos instalado utilizando una terminal de comandos
 
 **Windows**: La terminal que trae por defecto es cmd, tambien puedes utilizar otras terminales que podras descargar más adelante. 
 
-Para abrir cmd puedes darle al buscador de windows y buscar cmd. Si te encuentras en un windows que no tiene buscador, puedes utilizar la tecla ´[Windows + R]´ y se abrira una ventana donde deveras escribir ´cmd´ y automaticamente se te abrira la terminal de windows.
+Para abrir cmd puedes darle al buscador de windows y buscar cmd. Si te encuentras en un windows que no tiene buscador, puedes utilizar la tecla `[Windows + R]` y se abrira una ventana donde deveras escribir ´cmd´ y automaticamente se te abrira la terminal de windows.
 
-**Mac**: En la lupa superior de busqueda, podemos buscar ´terminal´ y seleccionar la aplicación.
+**Mac**: En la lupa superior de busqueda, podemos buscar `terminal` y seleccionar la aplicación.
 
-**Linux**: Dependiendo de cada distribución, pero en un plano general, la podemos encontrar en nuestras herramientas como ´Terminal´.
+**Linux**: Dependiendo de cada distribución, pero en un plano general, la podemos encontrar en nuestras herramientas como `Terminal`.
 
 ---
 
@@ -29,3 +29,9 @@ Este comando nos ayudara a visualizar la versión de git que en su caso, tuviera
 Puede que no tengas git instalado, así que seguiremos con el tutorial.
 
 ## 2. Instalación
+
+### Instalación de Windows
+
+### Instalación en Mac
+
+### Instalación en Linux
