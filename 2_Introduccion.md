@@ -151,11 +151,16 @@ Este comando te permite agregar los archivos que vas a utilizar en el control de
 
 Un commit es un mensaje en el tiempo/espacio que podras describir al cambio que acabas de hacer, y el cual otros programadores podran entender, para esto deberas definir bien la descripción de lo que hiciste, no solo poner:
 
-> hola_mundo.py
+> imagen
 
 Aqui te dejo un link de una página donde vienen las [Buenas prácticas para escribir commits en Git](https://midu.dev/buenas-practicas-escribir-commits-git/).
 
+Es hora de hacer el commit, modificando las "" para describir el tipo de cambio que acabas de hacer:
+```Git
+git commit -m "Esta es la descripcción del cambio que acabas de hacer, MODIFICAR"
+```
+ Tal vez podemos poner: "Add new README.md"
 
+ ¡¡Felicidades!! acabas de realizar tu primer commit.
 
-
-Ya podemos pasar a la sección <a href='3_Modificando_archivos.md'>3. Modificando_archivos</a>.
+Ya podemos pasar a la sección <a href='3_Enlace'>3. Enlazando nuestro primer Repo</a>.
