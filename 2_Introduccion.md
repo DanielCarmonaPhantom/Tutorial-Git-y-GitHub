@@ -1,3 +1,4 @@
+<img src='./assets/Introduccion.png'>
 
 ## Introdución a Git
 
@@ -98,3 +99,6 @@ code
 y se abrira una ventana de VS CODE ya en la carpeta `Primer-Repo`. Aveces no esta configurado esta opción pero es muy facil de hacerlo.
 
 Ya dentro de nuestro VS CODE de lado izquierdo tenemos un icono llamado `Explorer` donde podremos visualizar todas las carpetas y archivos que estan dentro de la carpeta `Primer-Repo`.
+
+
+Ya podemos pasar a la sección <a href='3_Modificando_archivos.md'>3. Modificando_archivos</a>.

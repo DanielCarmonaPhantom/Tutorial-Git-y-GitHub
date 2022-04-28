@@ -1,4 +1,4 @@
-
+<img src='./assets/Instalacion_GIT.png'>
 
 ## 1. Terminal
 Antes de instalar, visualizaremos si ya tenemos instalado git, ya que en algunos sistemas operativos ya lo incorpora.
@@ -70,4 +70,4 @@ y para configurar tu correo, recomendable que sea el que ya tengas en tu cuenta 
 $ git config --global user.email "Aqui va tu correo"
 ```
 
-Ya podemos pasar a la sección <a href='2_ Introduccion.md'>2. Introducción a Git</a>.
+Ya podemos pasar a la sección <a href='2_Introduccion.md'>2. Introducción a Git</a>.

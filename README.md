@@ -7,7 +7,7 @@ El tutorial estara dividido en las siguientes secciones:
 Contenido:
 1. <a href='1_ Instalacion.md'>Instalación</a>.
 2. <a href='2_ Introduccion.md'>Introducción a Git</a>.
-3. Modificando archivos
+3. <a href='3_Modificando_archivos.md'>Modificando_archivos</a>.
 4. Crear presentación en Github
 
 Empezaremos con <a href='1_ Instalacion.md'>1. Instalación</a>.
