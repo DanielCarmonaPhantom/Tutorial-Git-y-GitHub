@@ -64,9 +64,13 @@ y nos aparecera ya la version de git instalada.
 
 ## Configuración
 
-Para definir el usuario que estaremos utilizando y probablemnte el que se una con GitHub, tendremos que configurar nuestro entorno modificando las variables de nombre y correo de git.
+Para definir el usuario y correo que estaremos utilizando y probablemnte el que se una con GitHub, tendremos que configurar nuestro entorno modificando las variables de nombre y correo de git.
 
-Para esto, dentro de nuestra terminal utilizaremos el comando: 
+Para esto, dentro de nuestra terminal utilizaremos el comando y modificando lo que esta dentro de las `""`: 
 ```Bash
 git config --global user.name "Aqui va tu nombre. Mucho Ojo"
+```
+y para configurar tu correo, recomendable que sea el que ya tengas en tu cuenta de Github:
+```Bash
+$ git config --global user.email "Aqui va tu correo"
 ```
