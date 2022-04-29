@@ -100,4 +100,4 @@ Ya podemos ir a nuestra página del repo donde aparecían las instrucciones, ref
 Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre de usuario y agregale el README.md.
 
 
-Notas: Si cuando le diste push, en la consola te pidió logearte y te dijo que había error. Github implementó que a veces tienes que utilizar un access token, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
+Notas: Si cuando le diste push, en la consola te pidió logearte y pidio un Username y un password, el password es el acces token. Github implementó que a veces tienes que utilizar un access token, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
