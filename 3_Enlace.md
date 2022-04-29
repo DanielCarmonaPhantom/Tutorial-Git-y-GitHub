@@ -77,7 +77,7 @@ Este comando subira los commits realizados a nuestro repo de GitHub en la rama M
 
 Para esto nos pedira autentificarnos si no, todos podrian subir carpetas a repos de cualquier persona.
 
-Nos dice que abrira una ventana en el navegador predeterminado para hacer la autentificación.
+Nos dice que abrira una ventana en el navegador predeterminado para hacer la autentificación. Si no te aparecio esto, leer más abajo.
 
 <img src='./assets/GitHub.png'>
 
@@ -87,12 +87,14 @@ Despues de poner nuestro usuario, nos aparecera lo siguiente:
 
 Y en nuestra consola aparecera que se realizaron los cambios perfectamente.
 
-Ya podemos ir a nuestra página del repo donde aparecian las instrucciones y refrescar la página y ver nuestro primer archivo ¡Ya subido!.
+Ya podemos ir a nuestra página del repo donde aparecian las instrucciones, refrescar la página y ¡ver nuestro README!
 
 <img src='./assets/Primer_Repo.png'>
 
 
 ## ¡¡Felicidades!!
+![](https://i.gifer.com/3LT1.gif)
 
-<img src='https://i.gifer.com/3LT1.gif'>
 
+
+Notas: Si cuando le diste push, en la consola te pidio logearte y te dijo que habia error. Github implemento que aveces tienes que utilizar la llave SSH, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
