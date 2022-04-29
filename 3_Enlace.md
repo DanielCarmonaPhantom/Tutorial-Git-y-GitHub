@@ -25,8 +25,28 @@ Una vez creado tu respositorio, te pondran las instrucciones para enlazar tu rep
 
 Seguiremos el tutorial de `…or create a new repository on the command line` donde vemos que algunos pasos ya los realizamos. 
 
-Nos indica que debemos definir una rama Main.
+Nos indica que debemos definir una rama Main con el comando: 
 
-Para entender un poquito la Rama veremos la siguiente imagen:
+```git
+git branch -M main
+```
+
+Para entender un poquito las Ramas veremos la siguiente imagen:
 
 <img src='./assets/Branchs.png'>
+
+En los equipos de desarrollo, y dependera mucho de su manejo, utilizaran ramas para poder trabajar sus cambios.
+
+Esta es como la base donde podemos ver que tenemos 4 ramas: Main, Release, Develop y Features.
+
+* Main: La rama main es la rama principal (antes llamada Master) y suele utilizarse como la rama de producción. Esto se refiere a que esa rama sera la que este activa en la apliación.
+
+* Release: Suele no estar presente pero depende de tu equipo y es para la preparación a la hora de unir algún cambio proveniente de la rama de develop para que este listo para incorporarse a prod.
+
+* Develop: Rama utilizada para los cambios de los desarrolladores, esta incluyelos cambios o bugs que hayan salido.
+
+* Features: Esta como otras ramas de apoyo, te ayudan con caracteristicas nuevas, pero depende mucho de la estructura.
+
+Para entender más sobre estas ramas, puedes buscar en internet documentación de todo el Git Flow.
+
+Estas empiezan ya a trabajarse cuando participas en un equipo de desarrollo. Mientras estaremos utilizando la rama Main.
