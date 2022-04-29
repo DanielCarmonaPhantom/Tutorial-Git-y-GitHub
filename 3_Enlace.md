@@ -75,11 +75,11 @@ git push -u origin main
 
 Este comando subira los commits realizados a nuestro repo de GitHub en la rama Main. 
 
-Para esto nos pedira autentificarnos si no, todos podrian subir carpetas a repos de cualquiera.
+Para esto nos pedira autentificarnos si no, todos podrian subir carpetas a repos de cualquier persona.
 
 Nos dice que abrira una ventana en el navegador predeterminado para hacer la autentificación.
 
-<img src='./assets/Github.png'>
+<img src='./assets/GitHub.png'>
 
 Despues de poner nuestro usuario, nos aparecera lo siguiente:
 
@@ -94,5 +94,5 @@ Ya podemos ir a nuestra página del repo donde aparecian las instrucciones y ref
 
 ## ¡¡Felicidades!!
 
-<img src='./assets/https://i.gifer.com/3LT1.gif'>
+<img src='https://i.gifer.com/3LT1.gif'>
 
