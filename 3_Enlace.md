@@ -5,23 +5,23 @@
 
 Ya tenemos por un lado el repo de las carpetas con su control de versiones, pero nos falta asignarlo a un repo de GitHub. Para esto haremos lo siguiente:
 
-1. Iremos a GitHub, accederemos a nuestra cuenta y en la esquina superior derecha abra un icono + donde al darle click, nos aparecera la opción de crear un nuevo repositorio. Tambien sueles encontrar un boton Verde que tambien tiene la misma funcionalidad.
+1. Iremos a GitHub, accederemos a nuestra cuenta y en la esquina superior derecha abra un icono + donde al darle click, nos aparecerá la opción de crear un nuevo repositorio. También sueles encontrar un botón Verde que también tiene la misma funcionalidad.
 
 Si no menciono algo aquí, no le muevas.
 
-2. Nos llevara a una página nueva para los detalles de nuestro repo. Agregaremos un nombre. En este caso podriamos poner `Primer-Repo`.
+2. Nos llevará a una página nueva para los detalles de nuestro repo. Agregaremos un nombre. En esté caso podriamos poner `Primer-Repo`.
 
 3. Dejalo en Public.
 
-4. Te pregunta si quieres inicializar el repo con un archivo README, nuestra carpeta ya tiene ese archivo así que no seleccionaremos la casilla.
+4. Te preguntará si quieres inicializar el repo con un archivo README, nuestra carpeta local ya contiene ese archivo así que **no** seleccionaremos la casilla.
 
-5. El .gitignore son carpetas/archivos que no quieres que se suban al repositorio de GitHub. Más adelante aprenderas de ellos.
+5. El .gitignore son carpetas/archivos que no quieres que se suban al repositorio de GitHub. Más adelante aprenderás de ellos. 
 
 6. Licencia en None
 
-7. Daremos click al boton verde [Create Repository]
+7. Daremos click al botón verde [Create Repository]
 
-Una vez creado tu respositorio, te pondran las instrucciones para enlazar tu repo de GitHub con el de tu computadora.
+Una vez creado tu respositorio, te pondrán las instrucciones para enlazar tu repo de GitHub con el de tu computadora.
 
 Seguiremos el tutorial de la sección **…or create a new repository on the command line** donde vemos que algunos pasos ya los realizamos. 
 
@@ -35,35 +35,35 @@ Para entender un poquito las Ramas veremos la siguiente imagen:
 
 <img src='./assets/Branchs.png'>
 
-En los equipos de desarrollo, y dependera mucho de su manejo, utilizaran ramas para poder trabajar sus cambios.
+En los equipos de desarrollo, y dependera mucho de su manejo, utilizarán ramas para poder trabajar sus cambios.
 
-Esta es como la base donde podemos ver que tenemos 4 ramas: Main, Release, Develop y Features.
+Está es como la base donde podemos ver que tenemos 4 ramas: Main, Release, Develop y Features.
 
-* Main: La rama main es la rama principal (antes llamada Master) y suele utilizarse como la rama de producción. Esto se refiere a que seran los cambios que estaran ya desplegados en nuestra aplicación.
+* Main: La rama main es la rama principal (antes llamada Master) y suele utilizarse como la rama de producción. Esto se refiere a que realizarán los cambios que estarán ya desplegados en nuestra aplicación.
 
-* Release: Suele no estar presente pero depende de tu equipo y es para la preparación a la hora de unir algún cambio proveniente de la rama de develop para que este listo para incorporarse a prod.
+* Release: Suele no estar presente pero depende de tu equipo y es para la preparación a la hora de unir algún cambio proveniente de la rama de develop para que esté listo para incorporarse a prod.
 
 * Develop: Rama utilizada para los cambios de los desarrolladores, bugs que hayan salido.
 
-* Features: Esta como otras ramas de apoyo, te ayudan con caracteristicas nuevas, pero depende mucho de la estructura.
+* Features: está como otras ramas de apoyo, te ayudan con características nuevas, pero depende mucho de la estructura.
 
 Para entender más sobre estas ramas, puedes buscar en internet documentación de todo el Git Flow.
 
 Las ramas empiezan ya a trabajarse cuando participas en un equipo de desarrollo. Mientras estaremos utilizando la rama Main.
 
-Asi que en nuestra terminal si utilizaremos el comando:
+Así que en nuestra terminal si utilizaremos el comando:
 
 ```git
 git branch -M main
 ```
 
-Despues nos dice que utilizemos git remote que nos ayudara a realizar la sincronización del repo de Github con nuestra carpeta con nuestro repo local. Utilizaremos el comando que nos aparece ahí ya que ese incluye nuestro nombre se usuario y el nombre del repo. 
+Después nos dice que usemos el comando git remote, que nos ayudará a realizar la sincronización del repo de Github con nuestra carpeta con nuestro repo local. Utilizaremos el comando que nos aparece ahí ya que ese incluye nuestro nombre se usuario y el nombre del repo. 
 
 ```git
 git remote add origin https://github.com/TUNOMBRE/Primer-Repo.git
 ```
 
-Si todo salio bien, no nos regresara nada.
+Si todo salio bien, no nos devolverá nada.
 
 Ya tenemos enlazado nuestra carpeta local con nuestro repo de GitHub, pero nos faltan subir esos cambios que hicimos en nuestro repo local.
 
@@ -73,21 +73,21 @@ Para eso nos indica que usemos el comando.
 git push -u origin main
 ```
 
-Este comando subira los commits realizados a nuestro repo de GitHub en la rama Main. 
+esté comando subirá los commits realizados a nuestro repo de GitHub en la rama Main. 
 
-Para esto nos pedira autentificarnos si no, todos podrian subir carpetas a repos de cualquier persona.
+Para esto nos pedirá autentificarse si no, todos podrían subir carpetas a repos de cualquier persona.
 
-Nos dice que abrira una ventana en el navegador predeterminado para hacer la autentificación. Si no te aparecio esto, leer más abajo.
+Nos dice que abrirá una ventana en el navegador predeterminado para hacer la autentificación. Si no te aparece esto, lee más abajo.
 
 <img src='./assets/GitHub.png'>
 
-Despues de poner nuestro usuario, nos aparecera lo siguiente:
+Después de poner nuestro usuario, nos aparecerá lo siguiente:
 
 <img src='./assets/Autentificacion.png'>
 
-Y en nuestra consola aparecera que se realizaron los cambios perfectamente.
+Y en nuestra consola aparecerá que se realizaron los cambios perfectamente.
 
-Ya podemos ir a nuestra página del repo donde aparecian las instrucciones, refrescar la página y ¡ver nuestro README!
+Ya podemos ir a nuestra página del repo donde aparecían las instrucciones, refrescar la página y ¡ver nuestro README!
 
 <img src='./assets/Primer_Repo.png'>
 
@@ -100,4 +100,4 @@ Ya podemos ir a nuestra página del repo donde aparecian las instrucciones, refr
 Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre de usuario y agregale el README.md.
 
 
-Notas: Si cuando le diste push, en la consola te pidio logearte y te dijo que habia error. Github implementó que aveces tienes que utilizar la llave SSH, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
+Notas: Si cuando le diste push, en la consola te pidió logearte y te dijo que había error. Github implementó que a veces tienes que utilizar la llave SSH, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
