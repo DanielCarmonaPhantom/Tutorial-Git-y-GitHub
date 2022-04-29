@@ -1,6 +1,6 @@
 <img src='./assets/Titular.png'>
 
-Esté tutorial está diseñado para instalar git desde cero, aprendiendo un poco de terminal y hasta crear tus propios repositorios.
+Esté tutorial está diseñado para instalar git desde cero, aprender un poco de terminal y hasta crear tus propios repositorios.
 
 El tutorial estará dividido en las siguientes secciones:
 
