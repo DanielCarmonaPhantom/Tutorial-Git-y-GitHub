@@ -93,7 +93,8 @@ Ya podemos ir a nuestra página del repo donde aparecian las instrucciones, refr
 
 
 ## ¡¡Felicidades!!
-![](https://i.gifer.com/3LT1.gif)
+
+<iframe src="https://gifer.com/embed/3LT1" width=480 height=369.600 frameBorder="0" allowFullScreen></iframe><p></p>
 
 
 
