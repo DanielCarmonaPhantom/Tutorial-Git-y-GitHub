@@ -163,6 +163,6 @@ git commit -m "Esta es la descripcción del cambio que acabas de hacer, MODIFICA
 
  ¡¡Felicidades!! acabas de realizar tu primer commit.
 
- 
 
-Ya podemos pasar a la sección <a href='3_Enlace'>3. Enlazando nuestro primer Repo</a>.
+
+Ya podemos pasar a la sección <a href='3_Enlace.md'>3. Enlazando nuestro primer Repo</a>.

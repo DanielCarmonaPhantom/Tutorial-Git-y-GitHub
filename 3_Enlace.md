@@ -97,7 +97,7 @@ Ya podemos ir a nuestra página del repo donde aparecian las instrucciones, refr
 
 
 
-Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre y agregale el README.md.
+Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre de usuario y agregale el README.md.
 
 
-Notas: Si cuando le diste push, en la consola te pidio logearte y te dijo que habia error. Github implemento que aveces tienes que utilizar la llave SSH, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
+Notas: Si cuando le diste push, en la consola te pidio logearte y te dijo que habia error. Github implementó que aveces tienes que utilizar la llave SSH, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
