@@ -93,9 +93,11 @@ Ya podemos ir a nuestra página del repo donde aparecian las instrucciones, refr
 
 
 ## ¡¡Felicidades!!
+<img src='./assets/3LT1.gif'>
 
-<iframe src="https://gifer.com/embed/3LT1" width=480 height=369.600 frameBorder="0" allowFullScreen></iframe><p></p>
 
+
+Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre y agregale el README.md.
 
 
 Notas: Si cuando le diste push, en la consola te pidio logearte y te dijo que habia error. Github implemento que aveces tienes que utilizar la llave SSH, no es complicado solo es para más seguridad y puedes encontrar en internet muchos tutoriales al respecto.
