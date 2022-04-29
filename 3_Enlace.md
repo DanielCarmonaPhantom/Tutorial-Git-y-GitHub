@@ -57,7 +57,7 @@ Así que en nuestra terminal sí utilizaremos el comando:
 git branch -M main
 ```
 
-Después nos dice que usemos el comando git remote, que nos ayudará a realizar la sincronización del repo de Github con nuestra carpeta con nuestro repo local. Utilizaremos el comando que nos aparece ahí ya que ese incluye nuestro nombre se usuario y el nombre del repo. 
+Después nos dice que usemos el comando git remote, que nos ayudará a realizar la sincronización del repo de Github con nuestro repo local. Utilizaremos el comando que nos aparece ahí ya que ese incluye nuestro nombre se usuario y el nombre del repo. 
 
 ```git
 git remote add origin https://github.com/TUNOMBRE/Primer-Repo.git
