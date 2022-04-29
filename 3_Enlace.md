@@ -31,9 +31,7 @@ Nos indica que debemos definir una rama Main con el comando:
 git branch -M main
 ```
 
-Para entender un poquito las Ramas veremos la siguiente imagen:
-
-<img src='./assets/Branchs.png'>
+Para entender un poquito las Ramas veremos la siguiente:
 
 En los equipos de desarrollo, y dependera mucho de su manejo, utilizarán ramas para poder trabajar sus cambios.
 
@@ -46,6 +44,8 @@ Está es como la base donde podemos ver que tenemos 4 ramas: Main, Release, Deve
 * Develop: Rama utilizada para los cambios de los desarrolladores, bugs que hayan salido.
 
 * Features: está como otras ramas de apoyo, te ayudan con características nuevas, pero depende mucho de la estructura.
+
+<img src='./assets/Branchs.png'>
 
 Para entender más sobre estas ramas, puedes buscar en internet documentación de todo el Git Flow.
 
