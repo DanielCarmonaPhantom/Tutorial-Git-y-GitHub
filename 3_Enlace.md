@@ -39,7 +39,7 @@ En los equipos de desarrollo, y dependera mucho de su manejo, utilizarán ramas 
 
 Está es como la base donde podemos ver que tenemos 4 ramas: Main, Release, Develop y Features.
 
-* Main: La rama main es la rama principal (antes llamada Master) y suele utilizarse como la rama de producción. Esto se refiere a que realizarán los cambios que estarán ya desplegados en nuestra aplicación.
+* Main: La rama main es la rama principal (antes llamada Master) y suele utilizarse como la rama de producción. Esto se refiere a que estarán los archivos ya desplegados y listos para usarse en nuestra aplicación.
 
 * Release: Suele no estar presente pero depende de tu equipo y es para la preparación a la hora de unir algún cambio proveniente de la rama de develop para que esté listo para incorporarse a prod.
 
