@@ -20,7 +20,7 @@ Una vez dentro de nuestra terminal, utilizaremos el comando:
 git --version
 ```
 
-esté comando nos ayudará a visualizar la versión de git que en su caso, tuvieramos instalada.
+Esté comando nos ayudará a visualizar la versión de git que en su caso, tuvieramos instalada.
 
 Puede que no tengas git instalado, así que seguiremos con el tutorial.
 

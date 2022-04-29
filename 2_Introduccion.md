@@ -131,7 +131,7 @@ Para nuestro tutorial pondremos lo siguiente:
 
 # Primer repositorio
 ---
-esté repo fue realizado para hackear el mundo.
+Esté repo fue realizado para hackear el mundo.
 
 ```
 
@@ -145,7 +145,7 @@ Una vez guardado, nos vamos a la consola(espero un no la hayas cerrado, pero si 
 git add .
 ```
 
-esté comando te permite agregar los archivos que vas a utilizar en el control de versiones. Puede ponerse manual como: `git add README.md` pero el punto en el comando de arriba se agregan **todos** los archivos modificados.
+Esté comando te permite agregar los archivos que vas a utilizar en el control de versiones. Puede ponerse manual como: `git add README.md` pero el punto en el comando de arriba se agregan **todos** los archivos modificados.
 
 ¡¡Es hora de hacer tu primer commit!! 
 

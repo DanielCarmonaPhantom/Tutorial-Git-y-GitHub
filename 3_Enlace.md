@@ -73,7 +73,7 @@ Para eso nos indica que usemos el comando.
 git push -u origin main
 ```
 
-esté comando subirá los commits realizados a nuestro repo de GitHub en la rama Main. 
+Esté comando subirá los commits realizados a nuestro repo de GitHub en la rama Main. 
 
 Para esto nos pedirá autentificarse si no, todos podrían subir carpetas a repos de cualquier persona.
 
