@@ -11,7 +11,7 @@ Contenido:
 <!-- 3. <a href='4_Modificando_archivos.md'>Modificando archivos</a>. -->
 <!-- 4. Crear presentación en Github -->
 
-Empezaremos con <a href='1_ Instalacion.md'>1. Instalación</a>.
+Empezaremos con <a href='1_Instalacion.md'>1. Instalación</a>.
 
 
 
