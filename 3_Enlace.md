@@ -51,7 +51,7 @@ Para entender más sobre estas ramas, puedes buscar en internet documentación d
 
 Las ramas empiezan ya a trabajarse cuando participas en un equipo de desarrollo. Mientras estaremos utilizando la rama Main.
 
-Así que en nuestra terminal si utilizaremos el comando:
+Así que en nuestra terminal sí utilizaremos el comando:
 
 ```git
 git branch -M main
