@@ -69,5 +69,8 @@ y para configurar tu correo, recomendable que sea el que ya tengas en tu cuenta 
 ```Bash
 $ git config --global user.email "Aquí va tu correo"
 ```
+Y por ultimo, definimos la rama `main` como principal (antes llamada rama `master`).
+```Bash
+git config --global init.defaultBranch main
 
 Ya podemos pasar a la sección <a href='2_Introduccion.md'>2. Introducción a Git</a>.
