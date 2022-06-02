@@ -67,7 +67,7 @@ git config --global user.name "Aquí va tu nombre. Mucho Ojo"
 ```
 y para configurar tu correo, recomendable que sea el que ya tengas en tu cuenta de Github:
 ```Bash
-$ git config --global user.email "Aquí va tu correo"
+git config --global user.email "Aquí va tu correo"
 ```
 Y por ultimo, definimos la rama `main` como principal (antes llamada rama `master`).
 ```Bash
