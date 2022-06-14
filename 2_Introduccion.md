@@ -109,7 +109,7 @@ Abriremos VS CODE y nos iremos a File y ahí seleccionaremos `Open Folder` y bus
 
 También en tu terminal puedes teclear:
 ```Bash
-code 
+code .
 ```
 Y se abrirá una ventana de VS CODE en la carpeta `Primer-Repo`. A veces no está configurado está opción pero es muy facil de hacerlo.
 
