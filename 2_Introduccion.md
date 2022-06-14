@@ -75,6 +75,10 @@ cd Desktop
 
 Veremos que en nuestro nombre de la terminal nos añadirá la carpeta que nos movimos. 
 
+```Bash
+C:\User\Daniel\Desktop>
+```
+
 Haremos lo mismo para entrar a nuestro `Primer-Repo`:
 
 ```Bash
