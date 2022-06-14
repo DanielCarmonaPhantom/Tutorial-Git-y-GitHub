@@ -28,7 +28,7 @@ Regularmente se crean estos repos en el escritorio, pero esto ya depende de dond
 
 #### 2. Debemos situarnos en la carpeta.
 
-Para "situarnos" debemos movernos dentro de la consola.
+Para "situarnos" debemos navegar dentro de la consola.
 
 Cuando inicias la terminal, está se sitúa en un punto específico de tu computadora. Regularmente en la carpeta del Usuario. 
 
