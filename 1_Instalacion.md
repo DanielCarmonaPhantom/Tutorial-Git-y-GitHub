@@ -38,10 +38,7 @@ Nos iremos a la terminal y actualizaremos la lista de paquetes con el comando:
 ```Bash
 sudo apt-get update
 ```
-y después
-```Bash
-sudo apt-get upgrade
-```
+
 Una vez teniendo actualizado nuestros paquetes, actualizaremos el git de nuestra máquina con:
 ```Bash
 sudo apt-get install git
