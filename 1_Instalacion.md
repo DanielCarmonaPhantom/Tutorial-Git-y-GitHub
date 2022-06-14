@@ -38,7 +38,7 @@ Nos iremos a la terminal y actualizaremos la lista de paquetes con el comando:
 ```Bash
 sudo apt-get update
 ```
-y Después
+y después
 ```Bash
 sudo apt-get upgrade
 ```
