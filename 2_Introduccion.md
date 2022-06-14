@@ -2,7 +2,18 @@
 
 ## Introducción a Git
 
+Recuerda Git y Github son 2 entornos diferentes, ahorita solo estamos utilizando Git
+
 Git nos ayudará a manejar las versiones de estados sobre nuestros archivos. ¿A que se refiere estados?. ¿Recuerdas lo que dicen de TesisFinal y luego es TesisFinal2 y Después es TesisFinalFinal? lo que te ayuda git es a trabajar esas versiones que vas manejando. Ahora imaginate que ese archivo no solo lo editas tu, si no más personas, entonces para poder ver los cambios que se realicen, git te permite visualizar lo que ha subido cada quien. También puedes saltar en el tiempo, volviendo a un estado anterior y empezando desde ahí. 
+
+Cada proyecto que quieras trabajar, deberás inicializar git. Esto significa que esta carpeta estarás manejando un control de versiones. Cada proyecto que trabajes y quieras subir a **GitHub** deberás iniciar git. 
+
+El control de versiones nos ayuda en primer vistazo a describir los cambios que realizaste.
+
+Imagina que agregaste un login a tu proyecto. Entonces a la hora de describir tu cambio, haras un **commit** explicando que se agrego al proyecto. 
+
+Puede ser que el caso que entres a un equipo de programación, entonces ellos ya cuentan con un proyecto donde ya tiene git. Tu trabajo será descargar ese proyecto y trabajarlo. 
+
 
 ### Creando un repositorio
 
