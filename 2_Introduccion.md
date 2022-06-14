@@ -10,7 +10,7 @@ Cada proyecto que quieras trabajar, deberás inicializar git. Esto significa que
 
 El control de versiones nos ayuda en primer vistazo a describir los cambios que realizaste.
 
-Imagina que agregaste un login a tu proyecto. Entonces a la hora de describir tu cambio, haras un **commit** explicando que se agrego al proyecto. 
+Imagina que agregaste un login a tu proyecto. Entonces a la hora de describir tu cambio, haras un **commit** explicando que documentos se agregaron y editaron del proyecto. 
 
 Puede ser que el caso que entres a un equipo de programación, entonces ellos ya cuentan con un proyecto donde ya tiene git. Tu trabajo será descargar ese proyecto y trabajarlo. 
 
