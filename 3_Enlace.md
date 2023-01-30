@@ -95,7 +95,23 @@ Ya podemos ir a nuestra página del repo donde aparecían las instrucciones, ref
 ## ¡¡Felicidades!!
 <img src='./assets/3LT1.gif'>
 
+Ahora ya tienes tu repositorio que se encontraba en tu local, en tu Github. Recuerda que cuando vas a trabajar un NUEVO proyecto, estos son los pasos que debes realizar.
 
+CUANDO MODIFICAS un archivo en tu local, este cambio debe ser agregado al repositorio de github. Solamente debes agregar el archivo con 
+```Bash
+git add .
+```
+Ya que esta agregado, realizas tu commit correspondiente.
+```
+git commit -m "refactor: Cambie x cosa en x archivo"
+```
+
+Y por último subes tu cambio:
+```
+git push origin main
+```
+
+Listo! cada que modifiques tus archivos, solo debes hacer esos 3 pasos. 
 
 Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre de usuario y agregale el README.md.
 
