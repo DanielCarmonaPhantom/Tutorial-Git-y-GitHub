@@ -97,7 +97,7 @@ Ya podemos ir a nuestra página del repo donde aparecían las instrucciones, ref
 
 Ahora ya tienes tu repositorio que se encontraba en tu local, en tu Github. Recuerda que cuando vas a trabajar un NUEVO proyecto, estos son los pasos que debes realizar.
 
-CUANDO MODIFICAS un archivo en tu local, este cambio debe ser agregado al repositorio de github. Solamente debes agregar el archivo con 
+CUANDO MODIFICAS un archivo en tu local, YA NO DEBES SUBIR UN REPO NUEVO, este cambio debe ser agregado al repositorio EXISTENTE de github que subiste en el punto anterior. Solamente debes agregar el archivo con 
 ```Bash
 git add .
 ```
