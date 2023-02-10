@@ -97,21 +97,42 @@ Ya podemos ir a nuestra página del repo donde aparecían las instrucciones, ref
 
 Ahora ya tienes tu repositorio que se encontraba en tu local, en tu Github. Recuerda que cuando vas a trabajar un NUEVO proyecto, estos son los pasos que debes realizar.
 
-CUANDO MODIFICAS un archivo en tu local, YA NO DEBES SUBIR UN REPO NUEVO, este cambio debe ser agregado al repositorio EXISTENTE de github que subiste en el punto anterior. Solamente debes agregar el archivo con 
+CUANDO MODIFICAS un archivo en tu local, YA NO DEBES SUBIR UN REPO NUEVO, este cambio debe ser agregado al repositorio EXISTENTE de github que subiste en el punto anterior. 
+
+## Modificamos el archivo README.md
+
+Vamos a modificar el archivo readme en nuestro editor de Texto y vamos agregar la siguiente línea:
+```
+Esto es un cambio
+```
+
+Ahora que tenemos un cambio, tenemos desincronizado el repo Local con el repo en GitHub que NO contiene esta línea. Así que procederemos a actualizar este cambio.
+
+Si haces 
+```Bash
+git status
+```
+Veras que te aparecera en rojo:
+```Bash
+modifed: README.md
+```
+
+Eso significa que modificaste el archivo y no has hecho commit de estos cambios.
+
+Solamente debes agregar el archivo con 
 ```Bash
 git add .
 ```
 Ya que esta agregado, realizas tu commit correspondiente.
 ```
-git commit -m "refactor: Cambie x cosa en x archivo"
+git commit -m "refactor: Agrege una nueva línea"
 ```
-
 Y por último subes tu cambio:
 ```
 git push origin main
 ```
 
-Listo! cada que modifiques tus archivos, solo debes hacer esos 3 pasos. 
+Listo! cada que modifiques tus archivos, solo debes hacer esos pasos. SOLAMENTE cuando trabajes con un proyecto nuevo, es un repositorio nuevo.  
 
 Easter egg: Crea un repo en GitHub llamado de la misma forma que tu nombre de usuario y agregale el README.md.
 
