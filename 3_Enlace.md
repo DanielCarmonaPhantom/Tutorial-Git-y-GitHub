@@ -13,7 +13,7 @@ Si no menciono algo aquí, no le muevas.
 
 3. Dejalo en Public.
 
-4. Te preguntará si quieres inicializar el repo con un archivo README, nuestra carpeta local ya contiene ese archivo así que **no** seleccionaremos la casilla.
+4. Te preguntará si quieres inicializar el repo con un archivo README, nuestra carpeta local ya contiene ese archivo así la dejaremos desmarcada.
 
 5. El .gitignore son carpetas/archivos que no quieres que se suban al repositorio de GitHub. Más adelante aprenderás de ellos. 
 
