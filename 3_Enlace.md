@@ -33,7 +33,7 @@ git branch -M main
 
 Para entender un poquito las Ramas veremos la siguiente:
 
-En los equipos de desarrollo, y dependera mucho de su manejo, utilizarán ramas para poder trabajar sus cambios.
+En los equipos de desarrollo, utilizarán ramas para poder trabajar los cambios que realizan cada uno sobre un proyecto.
 
 Está es como la base donde podemos ver que tenemos 4 ramas: Main, Release, Develop y Features.
 
