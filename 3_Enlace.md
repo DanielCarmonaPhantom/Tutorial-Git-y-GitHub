@@ -97,11 +97,11 @@ Ya podemos ir a nuestra página del repo donde aparecían las instrucciones, ref
 
 Ahora ya tienes tu repositorio que se encontraba en tu local, en tu Github. Recuerda que cuando vas a trabajar un NUEVO proyecto, estos son los pasos que debes realizar.
 
-CUANDO MODIFICAS un archivo en tu local, YA NO DEBES SUBIR UN REPO NUEVO, este cambio debe ser agregado al repositorio EXISTENTE de github que subiste en el punto anterior. 
+CUANDO MODIFICAS un archivo en tu local, YA NO DEBES SUBIR UN REPO NUEVO, este cambio solo se actualizará en el repositorio EXISTENTE de github que subiste en el punto anterior. 
 
 ## Modificamos el archivo README.md
 
-Vamos a modificar el archivo readme en nuestro editor de Texto y vamos agregar la siguiente línea:
+Vamos a modificar el archivo readme en nuestro editor de texto y vamos agregar la siguiente línea:
 ```
 Esto es un cambio
 ```
